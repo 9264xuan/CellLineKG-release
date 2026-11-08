@@ -1,7 +1,7 @@
 # CellLineKG
 
 <p align="center">
-  <img src="docs/overview.png" width="900">
+  <img src="docs/fig1.png" width="900">
 </p>
 
 A cell line-centric knowledge graph integrating molecular, functional, pharmacological, and annotation evidence across major cancer cell-line resources.
