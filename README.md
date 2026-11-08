@@ -1,6 +1,25 @@
 # CellLineKG
 
-CellLineKG is an LLM-based framework for answering biomedical cell-line questions over a Neo4j knowledge graph. It selects between Text2Cypher and evidence-path retrieval according to the question.
+<p align="center">
+  <img src="docs/overview.png" width="900">
+</p>
+
+A cell line-centric knowledge graph integrating molecular, functional, pharmacological, and annotation evidence across major cancer cell-line resources.
+
+**Paper** · [Project Page](https://9264xuan.github.io/project/celllinekg/) · [Hugging Face](https://huggingface.co/datasets/wave12/celllinekg)
+
+| Cell lines | Lineages | Subtypes | Node types | Relationship types | Nodes | Edges |
+| ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| 1,780 | 29 | 191 | 14 | 20 | 2.95M | 5.84M |
+
+## Highlights
+
+- Cell line-centric knowledge graph integrating four major cancer cell-line resources.
+- Cross-database identifier reconciliation and organization of heterogeneous molecular, functional, pharmacological, and annotation data around shared CellLine entities.
+- Transformation of quantitative measurements into biologically interpretable evidence states.
+- LLM-based natural-language query framework supporting Text2Cypher and evidence-path retrieval.
+- Evaluation on single Q&A, multi-condition cancer cell line selection, and integrated evidence retrieval.
+- Interactive interface with subgraph visualization for evidence tracing.
 
 ## Repository structure
 
